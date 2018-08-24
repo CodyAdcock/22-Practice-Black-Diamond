@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C3559CC8212DBA6A003DD6D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3559CC7212DBA6A003DD6D9 /* AppDelegate.swift */; };
-		C3559CCA212DBA6A003DD6D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3559CC9212DBA6A003DD6D9 /* ViewController.swift */; };
 		C3559CCD212DBA6A003DD6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3559CCB212DBA6A003DD6D9 /* Main.storyboard */; };
 		C3559CCF212DBA6E003DD6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3559CCE212DBA6E003DD6D9 /* Assets.xcassets */; };
 		C3559CD2212DBA6E003DD6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3559CD0212DBA6E003DD6D9 /* LaunchScreen.storyboard */; };
+		C3559CDA212DBACA003DD6D9 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3559CD9212DBACA003DD6D9 /* PersonTableViewController.swift */; };
+		C3559CDE212DBBE0003DD6D9 /* PersonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3559CDD212DBBE0003DD6D9 /* PersonClass.swift */; };
+		C3559CE0212DBBFF003DD6D9 /* PersonClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3559CDF212DBBFF003DD6D9 /* PersonClassController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3559CC4212DBA6A003DD6D9 /* 22 Practice Black Diamond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "22 Practice Black Diamond.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3559CC7212DBA6A003DD6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3559CC9212DBA6A003DD6D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3559CCC212DBA6A003DD6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3559CCE212DBA6E003DD6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3559CD1212DBA6E003DD6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3559CD3212DBA6E003DD6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3559CD9212DBACA003DD6D9 /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		C3559CDD212DBBE0003DD6D9 /* PersonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonClass.swift; sourceTree = "<group>"; };
+		C3559CDF212DBBFF003DD6D9 /* PersonClassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonClassController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				C3559CC7212DBA6A003DD6D9 /* AppDelegate.swift */,
-				C3559CC9212DBA6A003DD6D9 /* ViewController.swift */,
 				C3559CCB212DBA6A003DD6D9 /* Main.storyboard */,
+				C3559CD9212DBACA003DD6D9 /* PersonTableViewController.swift */,
+				C3559CDD212DBBE0003DD6D9 /* PersonClass.swift */,
+				C3559CDF212DBBFF003DD6D9 /* PersonClassController.swift */,
 				C3559CCE212DBA6E003DD6D9 /* Assets.xcassets */,
 				C3559CD0212DBA6E003DD6D9 /* LaunchScreen.storyboard */,
 				C3559CD3212DBA6E003DD6D9 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3559CCA212DBA6A003DD6D9 /* ViewController.swift in Sources */,
+				C3559CDA212DBACA003DD6D9 /* PersonTableViewController.swift in Sources */,
+				C3559CDE212DBBE0003DD6D9 /* PersonClass.swift in Sources */,
 				C3559CC8212DBA6A003DD6D9 /* AppDelegate.swift in Sources */,
+				C3559CE0212DBBFF003DD6D9 /* PersonClassController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
